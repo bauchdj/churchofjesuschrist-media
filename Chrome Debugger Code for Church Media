@@ -1,5 +1,5 @@
 //    Downloading... for:
-    //    2021
+    //    2021 Youth Theme site
 var i=0;
 var myInterval=window.setInterval(()=>{
     var links=document.querySelectorAll('[class="vp7s3q-0 bfUyxv sc-1j35ow6-1 hLtqSS"]')[0].childNodes;
@@ -7,7 +7,7 @@ var myInterval=window.setInterval(()=>{
     i++;
     if(links.length==i){clearInterval(myInterval)};
 },1500);
-    //    2020-2014
+    //    Media website
 var i=0;
 var myInterval=window.setInterval(()=>{
     var links=document.querySelectorAll('[class="sc-12dee8f-1 kQGNfP"]');
@@ -18,9 +18,9 @@ var myInterval=window.setInterval(()=>{
 },1500);
 
 //  Get mp3 links for:
-    //    2021
+    //    2021 Youth Theme site
 Option 1) links='';for(var i of document.querySelectorAll('[class="vp7s3q-0 bfUyxv sc-1j35ow6-1 hLtqSS"]')[0].childNodes){links=links+"\n"+i.children[3].href.replace('?download=true','')};console.log(links);
 Option 2) links='';for (var i of document.getElementsByTagName("a")){if(i.innerText=="instrumental"){links=links+"\n"+i.href.replace('?download=true','')}};console.log(links)
 
-    //    2020-2014
+    //    Media Website
 links='';for (var i of document.querySelectorAll('[class="sc-12dee8f-1 kQGNfP"]')){i.click();links=links+"\n"+document.querySelectorAll('[class="sc-1dbjm18-4 kdQare"]')[0].children[0].href.replace('?download=true','')};console.log(links)
